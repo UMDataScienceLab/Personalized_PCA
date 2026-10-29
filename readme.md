@@ -2,6 +2,8 @@
 
 This is the implementation of the paper *Personalized PCA: decoupling shared and unique features*.
 
+We propose personalized PCA, which decouples the features shared across heterogeneous datasets from the features *unique* to each one.
+
 If you run into any problems, please submit an issue, or contact the authors of that paper.
 
 ## How to test a simple example
@@ -25,3 +27,19 @@ Results will be generated to the "outputs/" folder
 - ppca.py contains all the hyperparameters
 - algs.py contains the implementation of personalized PCA learning algorithm
 - imgpro.py, vectorize.py, mnist.py are used to handle video data, debate corpus, and FEMNIST dataset respectively.
+
+## Citation
+
+[Paper](https://www.jmlr.org/papers/v25/22-0810.html) (Journal of Machine Learning Research, 2024). If you use this code, please cite:
+
+```bibtex
+@article{shi2024personalized,
+  title={Personalized {PCA}: Decoupling Shared and Unique Features},
+  author={Shi, Naichen and Al Kontar, Raed},
+  journal={Journal of Machine Learning Research},
+  volume={25},
+  number={41},
+  pages={1--82},
+  year={2024}
+}
+```
